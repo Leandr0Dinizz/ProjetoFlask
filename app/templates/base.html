@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>{{titulo}}</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/estilo.css')}}">
+</head>
+<body>
+  <nav>
+      <a href="/index">Página Inicial</a>
+      <a href="/classes">Classes</a>
+      <a href="formulario">Formulario</a>
+
+
+
+  </nav>
+
+
+  {% block conteudo %}
+  {% endblock %}
+
+
+<footer>Desenvolvido por {{nome}}</footer>
+</body>
+</html>
