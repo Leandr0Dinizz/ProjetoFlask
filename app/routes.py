@@ -17,3 +17,8 @@ def classes():
 @app.route('/formulario')
 def formulario():
     return render_template('formulario.html', titulo="formulario")
+
+
+@app.route('/bosses')
+def bosses():
+    return render_template('bosses.html', titulo="bosses")

@@ -1,11 +1,64 @@
 body{
-    background-color: #FFF;
+    background-color: #022a2c;
 
 }
 
 #Wpp{
+    width: 100%;  /* ocupando 100% do tamanho da altura pag  */
+    height: 100%; /* ocupando 100% do tamanho da largura pag  */
+    object-fit: cover; /* imagem estava distorcida antes de utilizar o object-fit ->ele mantém as dimensoes de altura e largura  */
+    display: block;
+}
+
+#margit{
+    max-width:500px;
+    max-height:450px;
+    width: auto;
+    height: auto;
+}
+
+#godrick{
+    max-width:1280px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+
+}
+
+
+#cabecalho{
     width: 100%;
     border: 1px solid #000;
     text-align: center;
+    font-size: 15px;
+}
+
+header li{
+    display: inline;
+    padding: 1% 1% 1% 5%;
+    font-weight: 300;
+    font-size: 21px;
+
+}
+
+a{
+   text-decoration: none;
+   color: #FFF
+
+
+}
+
+#BV{
+    text-align: center;
+    color: #FFF;
+    top: 101px;
+
+}
+
+#TXT1{
+   text-align: center;
+   font-size: 21px;
+   font-family: Comic Sans;
+   color: #FFF;
 
 }

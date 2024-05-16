@@ -5,21 +5,46 @@
     <title>{{titulo}}</title>
     <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/estilo.css')}}">
 </head>
+
+<header id="cabecalho">
+    <nav>
+        <ul id="topo" class="cima">
+            <a href="index.html">
+                <li>Página Inicial</li>
+            </a>
+            <a href="/classes">
+                <li>Classes</li>
+            </a>
+            <a href="/bosses">
+                <li>Bosses</li>
+            </a>
+
+            <a href="mapa">
+                <li>Mapa Elden Ring</li>
+            </a>
+
+            <a href="guias">
+                <li>Guias Elden Ring</li>
+            </a>
+
+            <a href="online">
+                <li>Online</li>
+            </a>
+        </ul>
+    </nav>
+</header>
+
 <body>
-  <nav>
-      <a href="/index">Página Inicial</a>
-      <a href="/classes">Classes</a>
-      <a href="formulario">Formulario</a>
 
 
 
-  </nav>
+
 
 
   {% block conteudo %}
   {% endblock %}
 
 
-<footer>Desenvolvido por {{nome}}</footer>
+<footer>Desenvolvido por Leandro</footer>
 </body>
 </html>
