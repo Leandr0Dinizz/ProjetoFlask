@@ -1,13 +1,9 @@
-body{
-    background-color: #022a2c;
-
-}
 
 #Wpp{
-    width: 100%;  /* ocupando 100% do tamanho da altura pag  */
-    height: 100%; /* ocupando 100% do tamanho da largura pag  */
-    object-fit: cover; /* imagem estava distorcida antes de utilizar o object-fit ->ele mantém as dimensoes de altura e largura  */
-    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no repeat;
 }
 
 #margit{
@@ -33,6 +29,10 @@ body{
     font-size: 15px;
 }
 
+a.clique:hover{
+    border: 2px solid #000;
+}
+
 header li{
     display: inline;
     padding: 1% 1% 1% 5%;
@@ -43,14 +43,11 @@ header li{
 
 a{
    text-decoration: none;
-   color: #FFF
-
 
 }
 
 #BV{
     text-align: center;
-    color: #FFF;
     top: 101px;
 
 }
@@ -59,6 +56,57 @@ a{
    text-align: center;
    font-size: 21px;
    font-family: Comic Sans;
-   color: #FFF;
 
 }
+
+#txtCAD{
+    text-align: center;
+    font-size: 21px;
+    font-family: Comic Sans;
+}
+
+#Info{
+text-align: center;
+    font-size: 21px;
+    font-family: Comic Sans;
+
+}
+
+#h1txt{
+text-align: center;
+    font-size: 21px;
+    font-family: Comic Sans;
+
+}
+
+#FORM{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 21px;
+    font-family: Comic Sans;
+}
+
+.Info{
+    font-family: Comic Sans;
+}
+
+#h3r{  /*REQUISITOS DO SISTEMA*/
+    text-align: center;
+
+}
+
+#H2J{ /*JOGABILIDADE ELDEN*/
+    text-align: center;
+
+}
+
+#H2R{ /*REVELAÇÃO ELDEN*/
+    text-align: center;
+
+}
+
+#IMGC1{
+
+}
+
+
